@@ -12,19 +12,19 @@ public static class Main
     private static bool Load(UnityModManager.ModEntry modEntry)
     {
         Settings = UnityModManager.ModSettings.Load<SteamOnlySettings>(modEntry);
-        modEntry.OnGUI = DrawGUI;
-        modEntry.OnSaveGUI = SaveGUI;
+        modEntry.OnGUI = OnDrawGUI;
+        modEntry.OnSaveGUI = OnSaveGUI;
         modEntry.OnToggle = OnToggle;
 
         return true;
     }
 
-    static void DrawGUI(UnityModManager.ModEntry entry)
+    static void OnDrawGUI(UnityModManager.ModEntry entry)
     {
         Settings.Draw(entry);
     }
 
-    static void SaveGUI(UnityModManager.ModEntry entry)
+    static void OnSaveGUI(UnityModManager.ModEntry entry)
     {
         Settings.Save(entry);
     }

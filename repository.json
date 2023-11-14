@@ -2,8 +2,8 @@
     "Releases": [
         {
             "Id": "dvSteamOnly",
-            "Version": "1.0.0",
-            "DownloadUrl": "https://github.com/scitor/dvSteamOnly/raw/master/dist/dvSteamOnly_v1.0.0.zip"
+            "Version": "1.0.1",
+            "DownloadUrl": "https://github.com/scitor/dvSteamOnly/raw/master/dist/dvSteamOnly_v1.0.1.zip"
         }
     ]
 }
