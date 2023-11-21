@@ -15,7 +15,7 @@ public static class Main
         modEntry.OnGUI = OnDrawGUI;
         modEntry.OnSaveGUI = OnSaveGUI;
         modEntry.OnToggle = OnToggle;
-
+        WorldStreamingInit.LoadingFinished += CheckLicense;
         return true;
     }
 
@@ -38,5 +38,12 @@ public static class Main
             harmony.UnpatchAll(modEntry.Info.Id);
         }
         return true;
+    }
+
+    private static void CheckLicense()
+    {
+        if (Settings.SteamOnly && Settings.EnsureSteamLicense) {
+            CoroutineManager.Instance.StartCoroutine(License.CheckLicenseCoro());
+        }
     }
 }
