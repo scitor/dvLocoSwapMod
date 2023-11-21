@@ -1,17 +1,17 @@
-﻿using System.Reflection;
-using HarmonyLib;
+﻿using HarmonyLib;
+using System.Reflection;
 using UnityModManagerNet;
 
-namespace dvSteamOnly;
+namespace dvLocoSwapMod;
 
 public static class Main
 {
-    public static SteamOnlySettings Settings { get; private set; }
+    public static Settings Settings { get; private set; }
 
     // Unity Mod Manage Wiki: https://wiki.nexusmods.com/index.php/Category:Unity_Mod_Manager
     private static bool Load(UnityModManager.ModEntry modEntry)
     {
-        Settings = UnityModManager.ModSettings.Load<SteamOnlySettings>(modEntry);
+        Settings = UnityModManager.ModSettings.Load<Settings>(modEntry);
         modEntry.OnGUI = OnDrawGUI;
         modEntry.OnSaveGUI = OnSaveGUI;
         modEntry.OnToggle = OnToggle;

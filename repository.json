@@ -1,9 +1,9 @@
 {
     "Releases": [
         {
-            "Id": "dvSteamOnly",
+            "Id": "dvLocoSwapMod",
             "Version": "1.0.1",
-            "DownloadUrl": "https://github.com/scitor/dvSteamOnly/raw/master/dist/dvSteamOnly_v1.0.1.zip"
+            "DownloadUrl": "https://github.com/scitor/dvLocoSwapMod/raw/master/dist/dvLocoSwapMod_v1.1.0.zip"
         }
     ]
 }

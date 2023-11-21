@@ -1,11 +1,11 @@
 {
-  "Id": "dvSteamOnly",
-  "DisplayName": "DV Steam Only",
+  "Id": "dvLocoSwapMod",
+  "DisplayName": "DV Loco Swap Mod",
   "Author": "scitor",
-  "Version": "1.0.1",
-  "HomePage": "https://github.com/scitor/dvSteamOnly",
-  "AssemblyName": "dvSteamOnly.dll",
-  "EntryMethod": "dvSteamOnly.Main.Load",
+  "Version": "1.1.0",
+  "HomePage": "https://github.com/scitor/dvLocoSwapMod",
+  "AssemblyName": "dvLocoSwapMod.dll",
+  "EntryMethod": "dvLocoSwapMod.Main.Load",
   "ManagerVersion": "0.27.3",
-  "Repository": "https://github.com/scitor/dvSteamOnly/raw/master/repository.json"
+  "Repository": "https://github.com/scitor/dvLocoSwapMod/raw/master/repository.json"
 }

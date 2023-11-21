@@ -1,4 +1,4 @@
-# Steam Only
+# Loco swap mod (was:Steam Only)
 
 A mod for Derail Valley to replace all Diesel with Steam engines when spawning (or vice versa).
 

@@ -1,13 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <AssemblyName>dvSteamOnly</AssemblyName>
+    <AssemblyName>dvLocoSwapMod</AssemblyName>
     <Description>Disable Steam or Diesel for more immersion!</Description>
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>latest</LangVersion>
-    <RootNamespace>dvSteamOnly</RootNamespace>
+    <RootNamespace>dvLocoSwapMod</RootNamespace>
     <ReferencePath>E:\Steam\steamapps\common\Derail Valley\DerailValley_Data\Managed</ReferencePath>
   </PropertyGroup>
   

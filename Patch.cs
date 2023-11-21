@@ -4,7 +4,7 @@ using HarmonyLib;
 using System;
 using System.Collections.Generic;
 
-namespace dvSteamOnly
+namespace dvLocoSwapMod
 {
     [HarmonyPatch(typeof(StationLocoSpawner), "Awake")]
     class StationLocoSpawner_Awake_Patch
