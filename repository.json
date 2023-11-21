@@ -2,7 +2,7 @@
     "Releases": [
         {
             "Id": "dvLocoSwapMod",
-            "Version": "1.0.1",
+            "Version": "1.1.0",
             "DownloadUrl": "https://github.com/scitor/dvLocoSwapMod/raw/master/dist/dvLocoSwapMod_v1.1.0.zip"
         }
     ]
