@@ -1,9 +1,24 @@
 {
-    "Releases": [
-        {
-            "Id": "dvLocoSwapMod",
-            "Version": "1.1.0",
-            "DownloadUrl": "https://github.com/scitor/dvLocoSwapMod/raw/master/dist/dvLocoSwapMod_v1.1.0.zip"
-        }
-    ]
+  "Releases": [
+    {
+      "Id": "dvLocoSwapMod",
+      "Version": "1.1.1",
+      "DownloadUrl": "https://github.com/scitor/dvLocoSwapMod/raw/v1.1.1/dist/dvLocoSwapMod_v1.1.1.zip"
+    },
+    {
+      "Id": "dvLocoSwapMod",
+      "Version": "1.1.0",
+      "DownloadUrl": "https://github.com/scitor/dvLocoSwapMod/raw/v1.1.0/dist/dvLocoSwapMod_v1.1.0.zip"
+    },
+    {
+      "Id": "dvSteamOnly",
+      "Version": "1.0.1",
+      "DownloadUrl": "https://github.com/scitor/dvLocoSwapMod/raw/v1.0.1/dist/dvSteamOnly_v1.0.1.zip"
+    },
+    {
+      "Id": "dvSteamOnly",
+      "Version": "1.0.0",
+      "DownloadUrl": "https://github.com/scitor/dvLocoSwapMod/raw/v1.0.0/dist/dvSteamOnly_v1.0.0.zip"
+    }
+  ]
 }

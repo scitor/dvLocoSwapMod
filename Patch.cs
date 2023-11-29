@@ -19,18 +19,18 @@ namespace dvLocoSwapMod
             foreach (ListTrainCarTypeWrapper trainCarTypeWrapper in __instance.locoTypeGroupsToSpawn) {
                 ref List<TrainCarLivery> liveries = ref trainCarTypeWrapper.liveries;
                 if (Main.Settings.SteamOnly) {
-                    if (liveries.RemoveAll(L => L.v1 == TrainCarType.LocoDiesel) > 0) {
+                    if (liveries.RemoveAll(L => L.v1 == TrainCarType.LocoDiesel || L.v1 == TrainCarType.LocoDH4) > 0) {
                         liveries.Add(Cache.GetValueSafe(TrainCarType.LocoSteamHeavy));
                         liveries.Add(Cache.GetValueSafe(TrainCarType.Tender));
                     }
-                    if (liveries.RemoveAll(L => L.v1 == TrainCarType.LocoShunter || L.v1 == TrainCarType.LocoDM3 || L.v1 == TrainCarType.LocoDH4) > 0) {
+                    if (liveries.RemoveAll(L => L.v1 == TrainCarType.LocoShunter || L.v1 == TrainCarType.LocoDM3) > 0) {
                         liveries.Add(Cache.GetValueSafe(TrainCarType.LocoS060));
                     }
                 } else {
                     List<TrainCarLivery> replacements = new List<TrainCarLivery>();
                     if (liveries.RemoveAll(L => L.v1 == TrainCarType.LocoSteamHeavy) > 0) {
                         liveries.RemoveAll(L => L.v1 == TrainCarType.Tender);
-                        replacements.Add(Cache.GetValueSafe(TrainCarType.LocoDM3));
+                        replacements.Add(Cache.GetValueSafe(TrainCarType.LocoDiesel));
                         replacements.Add(Cache.GetValueSafe(TrainCarType.LocoDH4));
                         liveries.Add(replacements[(new Random()).Next(replacements.Count)]);
                     }

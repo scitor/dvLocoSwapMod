@@ -2,7 +2,7 @@
   "Id": "dvLocoSwapMod",
   "DisplayName": "DV Loco Swap Mod",
   "Author": "scitor",
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "HomePage": "https://github.com/scitor/dvLocoSwapMod",
   "AssemblyName": "dvLocoSwapMod.dll",
   "EntryMethod": "dvLocoSwapMod.Main.Load",
